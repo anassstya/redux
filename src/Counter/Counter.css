@@ -1,0 +1,31 @@
+.mainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+.mainAnswer{
+    border: 1px solid whitesmoke;
+    padding: 20px 80px;
+    border-radius: 10px;
+
+    font-size: 20px;
+}
+.mainAnswer:hover{
+    border-color: #747bff;
+}
+.mainButtons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.btnItem:focus{
+    border-color: #747bff;
+}
+.btnItem{
+    font-size: 20px;
+    padding: 30px;
+
+}
