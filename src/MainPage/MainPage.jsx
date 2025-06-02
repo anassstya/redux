@@ -7,7 +7,7 @@ export default function MainPage(){
         <div className={'mainContainer'}>
             <h1 className={'mainText'}>REDUX</h1>
             <div className={'mainButtons'}>
-                <Link to={'counter'} className={'btnItem'}>Счетчик вычислений</Link>
+                <Link to={'counter'} className={'btnItem'}>Редактирование</Link>
             </div>
         </div>
     )
